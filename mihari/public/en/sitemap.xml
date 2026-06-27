@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mihari.cyou/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mihari.cyou/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://mihari.cyou/zhs/"
+                href="http://localhost:1313/zhs/"
                 />
   </url><url>
-    <loc>https://mihari.cyou/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mihari.cyou/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://mihari.cyou/zhs/categories/"
+                href="http://localhost:1313/zhs/categories/"
                 />
   </url><url>
-    <loc>https://mihari.cyou/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mihari.cyou/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://mihari.cyou/zhs/tags/"
+                href="http://localhost:1313/zhs/tags/"
                 />
   </url>
 </urlset>
