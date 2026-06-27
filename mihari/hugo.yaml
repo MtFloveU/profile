@@ -1,0 +1,629 @@
+baseURL: "https://mihari.cyou"
+languageCode: "en-us"
+title: "Akira's Mental World"
+theme: hugo-profile
+
+# Multilingual configuration
+defaultContentLanguage: "zhs"
+defaultContentLanguageInSubdir: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Blog posts
+          url: /blogs
+          weight: 1
+        - identifier: gallery
+          name: Gallery
+          title: Image gallery
+          url: /gallery
+          weight: 2
+  zhs:
+    contentDir: "content/zhs"
+    languageName: "简体中文"
+    weight: 3
+    menu:
+      main:
+        - identifier: blog
+          name: 博客
+          title: 博客文章
+          url: /zhs/blogs
+          weight: 1
+        - identifier: gallery
+          name: 相册
+          title: 图片画廊
+          url: /zhs/gallery
+          weight: 2
+    params:
+      navbar:
+        align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+        # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+        # showBrandLogo: false # Show brand logo in nav bar | default is true
+        brandName: "阿弃の精神世界" # Brand name for the brand | default is the title variable
+      title: "阿弃の精神世界"
+      hero:
+        intro: "你好呀～这里是"
+        title: "阿弃Akiramenai"
+        subtitle: "一只可爱的猫娘?"
+        content: "我对IT和网络很感兴趣，同时喜欢二次元和动漫，在无聊的时候也会研究研究性别和心理学。我希望让自己变得更开心，也希望帮助大家变得更好。"
+        button:
+          name: "进一步了解咱"
+      about:
+        title: "关于咱"
+        content: |-
+          咱是一只猫娘（存疑？ 笨笨的awa 对IT和网络挺感兴趣的，但都没有太精通... 平时也喜欢看番和动漫，偶尔也会研究研究性别和心理学... 游戏在玩Minecraft和PUBGMobile。 是Transfem，没有吃糖，算半个家长不管党吧qwq 梦想是能开开心心无忧无虑地过完这一生
+        skills:
+          title: "咱用过的技术栈："
+      experience:
+        title: "咱的经历"
+        items:
+          - company: "Project MikaChan"
+            companyUrl: "https://project.mikachan.dpdns.org"
+            jobs:
+              - name: "创始人"
+                date: "2026年3月 - 至今"
+                content: "我是Project MikaChan的创始人，负责项目的整体规划和开发。"
+                info:
+                  content:  我们的目标是为所有人创造一个自由且易于使用的互联网。
+                featuredItems:
+                  fontAwesomeIcons:
+                    - icon: fab fa-twitter
+                      url: https://twitter.com/mkcns_official
+                      tooltip: Project MikaChan的Twitter账号
+                #  customIcons:
+               #     - icon: /images/favicon.ico
+                 #     url: "https://example.com"
+               #       tooltip: Exemple de contenu d'info-bulle
+           #   - name: "Développeuse de Logiciels"
+           #     date: "Jan 2022 - Déc 2023"
+           #     content: "J'ai travaillé comme développeuse de logiciels. J'ai travaillé sur un projet qui sera utilisé pour aider les gens à trouver le meilleur moyen de se déplacer dans la ville."
+         
+    #  education:
+    #    items:
+    #      - title: "Master en Administration des Affaires"
+    #        school:
+              # name: "Université de Californie, Berkeley"
+          #     url: "https://example.org"
+          #   date: "2013 - 2015"
+          #   GPA: "3.8 sur 5.0"
+          #   content: |-
+          #     Activités Extrascolaires
+          #       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          # - title: "Licence en Sciences Informatiques"
+          #   school:
+          #     name: "Institut de Technologie du Massachusetts"
+          #     url: "https://example.org"
+          #   date: "2009 - 2013"
+          #   GPA: "3.9 sur 5.0"
+          #   content: |-
+          #     J'ai publié deux articles lors de la Conférence ACM SIGCHI sur l'Intelligence Artificielle.
+          #     - [Détection d'Objets Rapide et Précise avec un Réseau de Neurones Convolutifs](https://example.com)
+          #     - Détection de masques faciaux à l'aide d'un réseau de neurones convolutifs.
+
+          #     Activités Extrascolaires
+          #       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          #   featuredLink:
+          #     enable: true
+          #     name: "Mon dossier académique"
+          #     url: "https://example.com"
+          # - title: "Lycée"
+          #   school:
+          #     name: "Lycée Thomas Jefferson pour les Sciences et la Technologie."
+          #     url: "https://example.org"
+          #   GPA: "4.2 sur 5.0"
+          #   featuredLink:
+          #     enable: true
+          #     url: "https://example.com"
+      projects:
+        title: "咱的项目"
+        items:
+          - title: Autonitor
+            content: 一款开源的 Twitter 粉丝分析应用，性能优于付费同类产品。
+            image: /images/autonitor.png
+            # featured:
+            #   name: Démo
+            #   link: https://hugo-profile.netlify.app
+            badges:
+              - "Flutter"
+              - "Dart"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/MtFloveU/autonitor
+              # - icon: fab fa-github
+              #   url: https://github.com/gurusabarish/hugo-profile
+              # - icon: fab fa-twitter
+              #   url: https://twitter.com/intent/tweet?text=Découvrez-le:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - title: Twitter FDAP
+            content: 一个 Python 脚本，用于自动导出和跟踪您的 X（Twitter）粉丝和关注者列表的变化。
+            image: /images/fdap.jpeg
+            # featured:
+            #   name: Démo
+            #   link: https://django-converter.herokuapp.com
+            badges:
+              - "Python"
+              - "Bash"
+            links:
+              - icon: fab fa-github
+                url: https://github.com/MtFloveU/twitter_fdap
+          # - title: Hugo Profile V2
+          #   content: Un modèle Hugo propre et simple pour portfolio personnel et blog.
+          #   image: /images/projects/profile2.jpg
+          #   featured:
+          #     name: Démo V2
+          #     link: https://hugo-profile-2.netlify.app
+          #   badges:
+          #     - "Hugo"
+          #     - "Bootstrap"
+          #     - "Javascript"
+          #   links:
+          #     - icon: fab fa-github
+          #       url: https://github.com/gurusabarish/HugoProfileV2
+      achievements:
+        items:
+          - title: Finaliste Google Kickstart
+            content: J'ai résolu tous les problèmes avec une solution optimale.
+            url: https://example.com
+            image: /images/achievement.jpg
+          - title: Gagnant du Hackathon Facebook
+            content: J'ai développé un produit utilisant l'Intelligence Artificielle.
+            image: /images/achievement.jpg
+          - title: Hugo Profile
+            content: J'ai développé un thème et j'obtiens plus de 1K téléchargements par mois.
+            url: "https://github.com/gurusabarish/hugo-profile"
+            image: /images/achievement.jpg
+          - title: Finaliste Microsoft Imagine
+            content: Nous avons développé un produit qui peut aider les autres.
+          - title: Google Summer of Code
+            content: J'ai contribué à un projet open source.
+            url: https://example.com
+      contact:
+        title: "和咱们聊天"
+        content: "加入咱的Telegram群组，和咱们一起聊天吧～ 喵喵喵"
+        btnName: "Telegram群组"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: gallery
+      name: Gallery
+      title: Gallery
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Akira's Mental World"
+  description: A peaceful place for me to share my thoughts, ideas, and projects.
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/favicon.ico"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Akira's Mental World" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Akiramenai"
+    subtitle: "An adorable catgirl?"
+    content: "I'm interested in IT and the Internet, and I also enjoy anime and manga. When I'm bored, I sometimes study gender and psychology. I hope to make myself happier and also help others become better people."
+    image: /images/avatar.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "More About Me"
+      url: "#about"
+      download: false
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/MtFloveU
+        - icon: fab fa-twitter
+          url: https://twitter.com/Ak1raQ_love
+        - icon: fab fa-telegram
+          url: https://t.me/hwfqaa
+        - icon: fa-brands fa-bluesky
+          url: https://bsky.app/profile/mihari.cyou
+      # customIcons:
+      #   - icon: /images/favicon.ico
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/avatar.jpg"
+    content: |-
+      I'm a catgirl. I'm a bit clumsy, awa. I'm quite interested in IT and the Internet, but not particularly proficient in anything… I also enjoy watching anime and manga, and occasionally research gender and psychology… My games are Minecraft and PUBG Mobile. I'm a Transfem, currently without HRT, so I guess I'm a semi-parent-free person qwq. My dream is to live a happy and carefree life.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been using recently:"
+      items:
+        - "HTML"
+        - "Python"
+        - "Dart"
+        - "Kotlin"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - company: "Project MikaChan"
+        companyUrl: "https://project.mikachan.dpdns.org"
+        jobs:
+          - name: "Founder"
+            date: "Mar 2026 - present"
+            content: "I am the founder of Project MikaChan, responsible for the overall planning and development of the project."
+            info:
+              content: We aim to create a free and accessible Internet for everyone.
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fab fa-twitter
+                  url: https://twitter.com/mkcns_official
+                  tooltip: Project MikaChan's Twitter account
+              #   - icon: fab fa-x-twitter
+              #     url: https://example.com
+              #     # tooltip: Example tooltip content
+              # customIcons:
+              #   - icon: /images/favicon.ico
+              #     url: "https://example.com"
+              #     tooltip: Example tooltip content
+          # - name: "Software Developer"
+          #   date: "Jan 2022 - Dec 2023"
+          #   content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+
+      # - company: "Amazon"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #     - name: "Software Developer"
+      #       date: "Sep 2020 - Dec 2021"
+      #       info:
+      #         content: I worked as a software developer for more than one year in Amazon.
+      #       content: |
+      #         I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+      #         - Lead backend developer for a product.
+      #         - Created a frontend design for a product.
+
+      # - company: "Apple"
+      #   companyUrl: "https://example.com"
+      #   jobs: 
+      #   - name: "Junior Software Developer"
+      #     date: "Jan 2020 - Aug 2020"
+      #     featuredItems:
+      #       fontAwesomeIcons:
+      #         - icon: fa-brands fa-react
+      #           url: https://react.dev/
+      #         - icon: fab fa-x-twitter
+      #           url: https://example.com
+      #       customIcons:
+      #         - icon: /images/favicon.ico
+      #           url: "https://example.com"
+      #     content: |
+      #       I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+      #       - Lead backend developer for a product.
+      #       - Created a frontend design for a product.
+
+      # - company: "Netflix"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #   - name: "UI/UX Designer"
+      #     date: "June 2017 - Nov 2019"
+      #     content: |
+      #       I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+      #       - Lead backend developer for a product.
+      #       - Created a frontend design for a product.
+
+      # - company: "Google"
+      #   companyUrl: "https://example.com"
+      #   jobs:
+      #   - name: "Product Designer"
+      #     date: "Feb 2016 - Mar 2017"
+      #     content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Business Administration"
+        school:
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Massachusetts Institute of Technology"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Autonitor
+        content: A FOSS Twitter follower analysis app that outperforms paid alternatives.
+        image: /images/autonitor.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "Flutter"
+          - "Dart"
+        links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/MtFloveU/autonitor
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Twitter FDAP
+        content: A Python script to automatically export and track changes in your X (formerly Twitter) followers and following lists.
+        image: /images/fdap.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Python"
+          - "Bash"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/MtFloveU/twitter_fdap
+
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    title: "Chat with Us"
+    enable: true
+    # title: "Custom Name"
+    content: "Join our Telegram group and chat with us! Meow~"
+    btnName: Telegram Group
+    btnLink: https://t.me/akira_group
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
+  customScripts: |-
+   <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+       var footerDiv = document.createElement('div');
+        footerDiv.style.display = 'flex';
+        footerDiv.style.justifyContent = 'center';
+        footerDiv.style.alignItems = 'center';
+        footerDiv.style.gap = '20px';
+        footerDiv.style.padding = '20px 0';
+        footerDiv.style.fontSize = '14px';
+        footerDiv.style.width = '100%';
+        footerDiv.style.flexWrap = 'wrap';
+        var icpLink = '<a data-v-9477e0b6="" href="https://icp.gov.moe/?keyword=20260629" target="_blank" style="color: #888; text-decoration: none;">萌ICP备20260629号</a>';
+        var travelLink = '<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" style="width:24px;height:24px;vertical-align:middle;margin-right:4px;">异次元之旅</a>';
+        footerDiv.innerHTML = icpLink + travelLink;
+        document.body.appendChild(footerDiv);
+      });
+    </script>
