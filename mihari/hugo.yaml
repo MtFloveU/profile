@@ -5,7 +5,7 @@ theme: hugo-profile
 
 # Multilingual configuration
 defaultContentLanguage: "zhs"
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: true  
 
 languages:
   en:
@@ -17,12 +17,12 @@ languages:
         - identifier: blog
           name: Blog
           title: Blog posts
-          url: /blogs
+          url: https://blog.mihari.cyou
           weight: 1
         - identifier: links
           name: Links
           title: Friend links
-          url: /links
+          url: https://blog.mihari.cyou/links
           weight: 2
   zhs:
     contentDir: "content/zhs"
@@ -33,12 +33,12 @@ languages:
         - identifier: blog
           name: 博客
           title: 博客文章
-          url: /zhs/blogs
+          url: https://blog.mihari.cyou
           weight: 1
         - identifier: links
           name: 友链
           title: 友情链接
-          url: /zhs/links
+          url: https://blog.mihari.cyou/links
           weight: 2
     params:
       navbar:
@@ -51,13 +51,24 @@ languages:
         intro: "你好呀～这里是"
         title: "阿弃Akiramenai"
         subtitle: "一只可爱的猫娘?"
-        content: "我对IT和网络很感兴趣，同时喜欢二次元和动漫，在无聊的时候也会研究研究性别和心理学。我希望让自己变得更开心，也希望帮助大家变得更好。"
+        content: "咱对IT和网络很感兴趣，同时喜欢二次元和动漫，在无聊的时候也会研究研究性别和心理学。咱希望让自己变得更开心，也希望帮助大家变得更好。"
         button:
-          name: "进一步了解咱"
+          name: "和咱交朋友！"
       about:
+        enable: true
         title: "关于咱"
+        image: "/images/avatar.jpg"
         content: |-
-          咱是一只猫娘（存疑？ 笨笨的awa 对IT和网络挺感兴趣的，但都没有太精通... 平时也喜欢看番和动漫，偶尔也会研究研究性别和心理学... 游戏在玩Minecraft和PUBGMobile。 是Transfem，没有吃糖，算半个家长不管党吧qwq 梦想是能开开心心无忧无虑地过完这一生
+          咱是一只猫娘（存疑？ 笨笨的awa 对IT和网络挺感兴趣的，但都没有太精通... 平时也喜欢看番和动漫，偶尔也会研究研究性别和心理学... 游戏在玩Minecraft和PUBGMobile。 是Transfem，没有吃糖，算半个家长不管党吧qwq 梦想是能开开心心无忧无虑地过完这一生。想知道咱都在做什么想什么的话，可以关注咱的 [Twitter](https://twitter.com/Ak1raQ_love) ~~（虽然可能锁推了，但你可以尝试申请！）~~ 或者前往 [博客](https://blog.mihari.cyou) 看看哦～
+          
+          <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
+            <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>闽南</span>
+            <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17岁啦</span>
+            <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
+            <span><i class="fas fa-moon" style="margin-right: 4px;"></i>巨蟹座</span>
+            <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
+            <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>理想主义者</span>
+          </div>
         skills:
           title: "咱用过的技术栈："
       experience:
@@ -68,9 +79,9 @@ languages:
             jobs:
               - name: "创始人"
                 date: "2026年3月 - 至今"
-                content: "我是Project MikaChan的创始人，负责项目的整体规划和开发。"
+                content: "咱是Project MikaChan的创始人，负责项目的整体规划和开发。"
                 info:
-                  content:  我们的目标是为所有人创造一个自由且易于使用的互联网。
+                  content:  咱们的目标是为所有人创造一个自由且易于使用的互联网。
                 featuredItems:
                   fontAwesomeIcons:
                     - icon: fab fa-twitter
@@ -185,8 +196,10 @@ languages:
             content: J'ai contribué à un projet open source.
             url: https://example.com
       contact:
-        title: "和咱们聊天"
-        content: "加入咱的Telegram群组，和咱们一起聊天吧～ 喵喵喵"
+        title: "和咱交朋友"
+        content: |-
+          咱很喜欢有人能找咱交朋友呢！~~只要没有恶意，如果是同类最好了qwq~~ 和咱交朋友很简单滴，在任意平台私信咱就好www 如果你想加入咱们的Telegram群的话，就点击下面的按钮啦～ 要是你也在**闽南**地区，不妨可以和咱面基当线下朋友哦 如果你想了解咱的朋友们的话，也可以去[友链](https://blog.mihari.cyou/links)看看呢～
+          </div>
         btnName: "Telegram群组"
 
 outputs:
@@ -324,8 +337,8 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "More About Me"
-      url: "#about"
+      name: "Make friends with me!"
+      url: "#contact"
       download: false
       newPage: false
     socialLinks:
@@ -349,6 +362,15 @@ params:
     image: "/images/avatar.jpg"
     content: |-
       I'm a catgirl. I'm a bit clumsy, awa. I'm quite interested in IT and the Internet, but not particularly proficient in anything… I also enjoy watching anime and manga, and occasionally research gender and psychology… My games are Minecraft and PUBG Mobile. I'm a Transfem, currently without HRT, so I guess I'm a semi-parent-free person qwq. My dream is to live a happy and carefree life.
+
+      <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
+        <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>Hokkien</span>
+        <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17yo</span>
+        <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
+        <span><i class="fas fa-moon" style="margin-right: 4px;"></i>Cancer</span>
+        <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
+        <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Idealist</span>
+      </div>
     skills:
       enable: true
       title: "Here are a few technologies I've been using recently:"
@@ -554,11 +576,11 @@ params:
 
   #Contact
   contact:
-    title: "Chat with Us"
     enable: true
-    # title: "Custom Name"
-    content: "Join our Telegram group and chat with us! Meow~"
-    btnName: Telegram Group
+    title: "Make Friends"
+    content: |-
+          I really love it when people want to be my friend! ~~As long as there's no malice, it's best if we're like-minded qwq~~ Making friends with me is easy, just send me a private message on any platform www If you'd like to join our Telegram group, click the button below~ If you're also in **Hokkien**, you can meet up with me in person and become offline friends~/f If you'd like to learn more about my friends, you can also check out [Links](https://blog.mihari.cyou/links)~</div>
+    btnName: "Telegram Group"
     btnLink: https://t.me/akira_group
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -630,7 +652,7 @@ params:
             footerDiv.style.width = '100%';
             footerDiv.style.flexWrap = 'wrap';
             var icpLink = '<a data-v-9477e0b6="" href="https://icp.gov.moe/?keyword=20260629" target="_blank" style="color: #888; text-decoration: none;">萌ICP备20260629号</a>';
-            var travelLink = '<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" style="width:24px;height:24px;vertical-align:middle;margin-right:4px;">异次元之旅</a>';
+            var travelLink = '<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-咱们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" style="width:24px;height:24px;vertical-align:middle;margin-right:4px;">异次元之旅</a>';
             footerDiv.innerHTML = icpLink + travelLink;
             document.body.appendChild(footerDiv);
           });
