@@ -493,9 +493,16 @@ Categories | Akira&#39;s Mental World
 
 
 
+<link rel="stylesheet" href="https://static.mikachan.dpdns.org/oplist/LXGWWenKai-Regular/result.css">
+
+<style>
+  body { 
+    font-family: "LXGW WenKai", sans-serif !important; 
+  }
+</style>
+
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
-      // --- 1. 底部备案及异次元之旅（保持不变） ---
       var footerDiv = document.createElement('div');
       footerDiv.style.display = 'flex';
       footerDiv.style.justifyContent = 'center';
@@ -509,47 +516,8 @@ Categories | Akira&#39;s Mental World
       var travelLink = '<a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank"><img src="https://travel.moe/images/icon/icon64pink.png" style="width:24px;height:24px;vertical-align:middle;margin-right:4px;">异次元之旅</a>';
       footerDiv.innerHTML = icpLink + travelLink;
       document.body.appendChild(footerDiv);
-
-      // --- 2. 个人简介下方：美波里特约研究员彩蛋 ---
-      // 尝试定位到 Hugo Profile 的 Hero 区域内容
-      var heroSection = document.querySelector('#hero');
-      if (heroSection) {
-        // 找到 hero 区域里的介绍段落 (p 标签)
-        var heroParagraph = heroSection.querySelector('p');
-        
-        if (heroParagraph) {
-          // 语言判断：根据当前页面环境选择中英文
-          var isChinese = document.documentElement.lang.includes('zh') || window.location.pathname.includes('/zhs');
-          var mihariName = isChinese ? '绪山美波里' : 'Oyama Mihari';
-          var roleText = isChinese ? '特别邀请：' : 'Special Invitation: ';
-
-          // 创建一个好看的胶囊形标签 (Pill Badge)
-          var mihariBadge = document.createElement('div');
-          mihariBadge.style.display = 'inline-flex';
-          mihariBadge.style.alignItems = 'center';
-          mihariBadge.style.marginTop = '10px';
-          mihariBadge.style.marginBottom = '20px';
-          mihariBadge.style.padding = '6px 14px';
-          // 使用极淡的粉色背景和边框，有机融入现有主题
-          mihariBadge.style.backgroundColor = 'rgba(231, 124, 142, 0.08)'; 
-          mihariBadge.style.border = '1px solid rgba(231, 124, 142, 0.2)';
-          mihariBadge.style.borderRadius = '50px'; // 胶囊圆角
-          mihariBadge.style.fontSize = '0.9em'; // 文字比正文稍微小一点点，显得精致
-          mihariBadge.style.color = '#e77c8e';
-          mihariBadge.style.width = 'fit-content';
-          
-          // 组装头像和文字，使用 em 单位保证不被写死，会跟随外层字号自然缩放
-          var imgHTML = '<img src="/images/mihari.png" alt="Mihari" style="height: 1.6em; width: auto; object-fit: contain; margin-right: 8px; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">';
-          var textHTML = '<span>' + roleText + '<strong>' + mihariName + '</strong></span>';
-          
-          mihariBadge.innerHTML = imgHTML + textHTML;
-
-          // 将这个标签插入到简介段落的正下方（在按钮上方）
-          heroParagraph.parentNode.insertBefore(mihariBadge, heroParagraph.nextSibling);
-        }
-      }
     });
-  </script>
+</script>
 
 
   <section id="search-content" class="py-2">
