@@ -1,6 +1,6 @@
 baseURL = 'https://blog.mihari.cyou/'
 locale = 'en-us' # 建议使用 languageCode
-title = "Mihari's Blog"
+title = "弃羽酱's Blog"
 theme = 'hugo-theme-stack'
 defaultContentLanguage = 'zh'
 
