@@ -1,0 +1,10 @@
+baseURL = 'https://blog.mihari.cyou/'
+locale = 'en-us'
+title = "Mihari's Blog"
+theme = 'hugo-theme-stack'
+DefaultContentLanguage = 'zh'
+
+[params]
+description = "Mihari's Blog"
+favicon = '/favicon.ico'
+mainSections = ['post']

@@ -59,16 +59,15 @@ languages:
         title: "关于咱"
         image: "/images/avatar.jpg"
         content: |-
-          咱是一只猫娘（存疑？ 笨笨的awa 对IT和网络挺感兴趣的，但都没有太精通... 平时也喜欢看番和动漫，偶尔也会研究研究性别和心理学... 游戏在玩Minecraft和PUBGMobile。 是Transfem，没有吃糖，算半个家长不管党吧qwq 梦想是能开开心心无忧无虑地过完这一生。想知道咱都在做什么想什么的话，可以关注咱的 [Twitter](https://twitter.com/Ak1raQ_love) ~~（虽然可能锁推了，但你可以尝试申请！）~~ 或者前往 [博客](https://blog.mihari.cyou) 看看哦～
-          
-          <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
-            <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>闽南</span>
-            <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17岁啦</span>
-            <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
-            <span><i class="fas fa-moon" style="margin-right: 4px;"></i>巨蟹座</span>
-            <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
-            <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>理想主义者</span>
-          </div>
+            咱是一只猫娘（存疑？ 笨笨的awa 对IT和网络挺感兴趣的，但都没有太精通... 平时也喜欢看番和动漫，偶尔也会研究研究性别和心理学... 游戏在玩Minecraft和PUBGMobile。 是Transfem，没有吃糖，算半个家长不管党吧qwq 梦想是能开开心心无忧无虑地过完这一生。想知道咱都在做什么想什么的话，可以关注咱的 <a href="https://twitter.com/Ak1raQ_love" style="color: #007bff !important; text-decoration: none !important;">Twitter</a> ~~（虽然可能锁推了，但你可以尝试申请！）~~ 或者前往 <a href="https://blog.mihari.cyou/" style="color: #007bff !important; text-decoration: none !important;">博客</a> 看看哦～ 
+            <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
+              <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>闽南</span>
+              <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17岁啦</span>
+              <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
+              <span><i class="fas fa-moon" style="margin-right: 4px;"></i>巨蟹座</span>
+              <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
+              <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>理想主义者</span>
+            </div>
         skills:
           title: "咱用过的技术栈："
       experience:
@@ -198,8 +197,7 @@ languages:
       contact:
         title: "和咱交朋友"
         content: |-
-          咱很喜欢有人能找咱交朋友呢！~~只要没有恶意，如果是同类最好了qwq~~ 和咱交朋友很简单滴，在任意平台私信咱就好www 如果你想加入咱们的Telegram群的话，就点击下面的按钮啦～ 要是你也在**闽南**地区，不妨可以和咱面基当线下朋友哦 如果你想了解咱的朋友们的话，也可以去[友链](https://blog.mihari.cyou/links)看看呢～
-          </div>
+          咱很喜欢有人能找咱交朋友呢！~~只要没有恶意，如果是同类最好了qwq~~ 和咱交朋友很简单滴，在任意平台私信咱就好www 如果你想加入咱们的Telegram群的话，就点击下面的按钮啦～ 要是你也在**闽南**地区，不妨可以和咱面基当线下朋友哦 如果你想了解咱的朋友们的话，也可以去<a href="https://blog.mihari.cyou/links" style="color: #007bff !important; text-decoration: !important;">友链</a>看看呢～
         btnName: "Telegram群组"
 
 outputs:
@@ -361,16 +359,15 @@ params:
     title: "About Me"
     image: "/images/avatar.jpg"
     content: |-
-      I'm a catgirl. I'm a bit clumsy, awa. I'm quite interested in IT and the Internet, but not particularly proficient in anything… I also enjoy watching anime and manga, and occasionally research gender and psychology… My games are Minecraft and PUBG Mobile. I'm a Transfem, currently without HRT, so I guess I'm a semi-parent-free person qwq. My dream is to live a happy and carefree life.
-
-      <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
-        <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>Hokkien</span>
-        <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17yo</span>
-        <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
-        <span><i class="fas fa-moon" style="margin-right: 4px;"></i>Cancer</span>
-        <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
-        <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Idealist</span>
-      </div>
+        I'm a catgirl. I'm a bit clumsy, awa. I'm quite interested in IT and the Internet, but not particularly proficient in anything… I also enjoy watching anime and manga, and occasionally research gender and psychology… My games are Minecraft and PUBG Mobile. I'm a Transfem, currently without HRT, so I guess I'm a semi-parent-free person qwq. My dream is to live a happy and carefree life. If you want to know what I'm doing and thinking about, you can follow my <a href="https://twitter.com/Ak1raQ_love" style="color: #007bff !important; text-decoration: none !important;">Twitter</a> ~~(although my account might be private, you can try requesting to follow!)~~ or check out my <a href="https://blog.mihari.cyou/" style="color: #007bff !important; text-decoration: none !important;">Blog</a>~
+        <div style="opacity: 0.7; font-size: 0.9em; margin-top: 20px; display: flex; flex-wrap: wrap; gap: 16px;">
+          <span><i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>Hokkien</span>
+          <span><i class="fas fa-birthday-cake" style="margin-right: 4px;"></i>17yo</span>
+          <span><i class="fas fa-seedling" style="margin-right: 4px;"></i>INFP-T</span> 
+          <span><i class="fas fa-moon" style="margin-right: 4px;"></i>Cancer</span>
+          <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Transfem🏳️‍⚧️</span>
+          <span><i class="fas fa-hashtag" style="margin-right: 4px;"></i>Idealist</span>
+        </div>
     skills:
       enable: true
       title: "Here are a few technologies I've been using recently:"
