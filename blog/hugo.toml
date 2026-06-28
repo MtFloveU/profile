@@ -1,10 +1,187 @@
 baseURL = 'https://blog.mihari.cyou/'
-locale = 'en-us'
+locale = 'en-us' # 建议使用 languageCode
 title = "Mihari's Blog"
 theme = 'hugo-theme-stack'
-DefaultContentLanguage = 'zh'
+defaultContentLanguage = 'zh'
 
 [params]
 description = "Mihari's Blog"
 favicon = '/favicon.ico'
 mainSections = ['post']
+rssFullContent = true
+# Accepted values: "default", "lastmod"
+sortBy = "default"
+
+[params.footer]
+since = 2026
+customText = ""
+
+[params.dateFormat]
+published = ":date_full"
+lastUpdated = ":date_full"
+
+[params.sidebar]
+compact = false
+avatar = "/favicon.ico"
+
+[params.article]
+headingAnchor = true
+math = false
+toc = true
+readingTime = true
+
+[params.article.list]
+showTags = false
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[params.article.mermaid]
+look = "classic"
+lightTheme = "default"
+darkTheme = "dark"
+securityLevel = "strict"
+htmlLabels = true
+transparentBackground = false
+
+[params.article.alertIcon]
+note = "📝"
+tip = "💡"
+important = "📌"
+warning = "⚠️"
+caution = "🚨"
+
+[params.widgets]
+homepage = []
+page = []
+
+[params.opengraph.twitter]
+site = ""
+card = "summary_large_image"
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing]
+autoOrient = false
+
+[params.imageProcessing.external]
+timeout = "5s"
+
+[params.imageProcessing.content]
+widths = [800, 1600, 2400]
+enabled = true
+
+[params.imageProcessing.thumbnail]
+enabled = true
+
+[params.cookies]
+enabled = false
+showSettings = true
+
+[params.cookies.categories]
+analytics = true
+functional = true
+
+[params.comments]
+enabled = true
+provider = "giscus"
+
+[params.comments.artalk]
+serverUrl = ""
+site = ""
+
+[params.comments.disqusjs]
+shortname = ""
+apiUrl = ""
+apiKey = ""
+admin = ""
+adminLabel = ""
+
+[params.comments.utterances]
+repo = ""
+issueTerm = "pathname"
+label = ""
+
+[params.comments.beaudar]
+repo = ""
+issueTerm = "pathname"
+label = ""
+theme = ""
+
+[params.comments.remark42]
+host = ""
+site = ""
+locale = "en"
+max_shown_comments = 15
+show_email_subscription = true
+
+[params.comments.vssue]
+platform = ""
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
+autoCreateIssue = false
+
+[params.comments.waline]
+serverURL = ""
+lang = ""
+pageview = ""
+emoji = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
+requiredMeta = ["name", "email", "url"]
+
+[params.comments.waline.locale]
+admin = "Admin"
+placeholder = ""
+
+[params.comments.twikoo]
+envId = ""
+region = ""
+path = ""
+lang = ""
+
+[params.comments.cactus]
+defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+serverName = "cactus.chat"
+siteName = ""
+
+[params.comments.giscus]
+repo = "MtFloveU/profile"
+repoID = "R_kgDOTGkeTA"
+category = "General"
+categoryID = "DIC_kwDOTGkeTM4DACVU"
+mapping = "pathname"
+lightTheme = "light"
+darkTheme = "dark_dimmed"
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = "top"
+lang = "en"
+strict = 0
+loading = "lazy"
+
+[params.comments.gitalk]
+owner = ""
+admin = ""
+repo = ""
+clientID = ""
+clientSecret = ""
+proxy = ""
+
+[params.comments.cusdis]
+host = "https://cusdis.com"
+id = ""
+
+[params.comments.comentario]
+url = ""
+autoInit = false
+autoNonInteractiveSso = false
+cssOverride = ""
+lang = ""
+liveUpdate = false
+maxLevel = 0
+noFonts = false
+theme = ""

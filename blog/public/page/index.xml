@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Mihari&#39;s Blog</title>
+        <link>https://blog.mihari.cyou/page/</link>
+        <description>Recent content in Pages on Mihari&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 28 Jun 2026 12:16:19 +0800</lastBuildDate><atom:link href="https://blog.mihari.cyou/page/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>About</title>
+            <link>https://blog.mihari.cyou/page/about/</link>
+            <pubDate>Sun, 28 Jun 2026 12:16:19 +0800</pubDate>
+            <guid>https://blog.mihari.cyou/page/about/</guid>
+            <description></description>
+        </item><item>
+            <title>友链</title>
+            <link>https://blog.mihari.cyou/page/links/</link>
+            <pubDate>Sat, 27 Jun 2026 21:40:00 +0800</pubDate>
+            <guid>https://blog.mihari.cyou/page/links/</guid>
+            <description></description>
+        </item></channel>
+</rss>

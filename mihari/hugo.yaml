@@ -22,7 +22,7 @@ languages:
         - identifier: links
           name: Links
           title: Friend links
-          url: https://blog.mihari.cyou/links
+          url: https://blog.mihari.cyou/page/links
           weight: 2
   zhs:
     contentDir: "content/zhs"
@@ -38,7 +38,7 @@ languages:
         - identifier: links
           name: 友链
           title: 友情链接
-          url: https://blog.mihari.cyou/links
+          url: https://blog.mihari.cyou/page/links
           weight: 2
     params:
       navbar:
@@ -197,7 +197,7 @@ languages:
       contact:
         title: "和咱交朋友"
         content: |-
-          咱很喜欢有人能找咱交朋友呢！~~只要没有恶意，如果是同类最好了qwq~~ 和咱交朋友很简单滴，在任意平台私信咱就好www 如果你想加入咱们的Telegram群的话，就点击下面的按钮啦～ 要是你也在**闽南**地区，不妨可以和咱面基当线下朋友哦 如果你想了解咱的朋友们的话，也可以去<a href="https://blog.mihari.cyou/links" style="color: #007bff !important; text-decoration: !important;">友链</a>看看呢～
+          咱很喜欢有人能找咱交朋友呢！~~只要没有恶意，如果是同类最好了qwq~~ 和咱交朋友很简单滴，在任意平台私信咱就好www 如果你想加入咱们的Telegram群的话，就点击下面的按钮啦～ 要是你也在**闽南**地区，不妨可以和咱面基当线下朋友哦 如果你想了解咱的朋友们的话，也可以去<a href="https://blog.mihari.cyou/page/links" style="color: #007bff !important; text-decoration: !important;">友链</a>看看呢～
         btnName: "Telegram群组"
 
 outputs:
@@ -576,7 +576,7 @@ params:
     enable: true
     title: "Make Friends"
     content: |-
-          I really love it when people want to be my friend! ~~As long as there's no malice, it's best if we're like-minded qwq~~ Making friends with me is easy, just send me a private message on any platform www If you'd like to join our Telegram group, click the button below~ If you're also in **Hokkien**, you can meet up with me in person and become offline friends~/f If you'd like to learn more about my friends, you can also check out [Links](https://blog.mihari.cyou/links)~</div>
+          I really love it when people want to be my friend! ~~As long as there's no malice, it's best if we're like-minded qwq~~ Making friends with me is easy, just send me a private message on any platform www If you'd like to join our Telegram group, click the button below~ If you're also in **Hokkien**, you can meet up with me in person and become offline friends~/f If you'd like to learn more about my friends, you can also check out [Links](https://blog.mihari.cyou/page/links)~</div>
     btnName: "Telegram Group"
     btnLink: https://t.me/akira_group
     # formspree:
